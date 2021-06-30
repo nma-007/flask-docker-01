@@ -1,5 +1,5 @@
 # flask-docker-01
-example flask run on docker build, run, publish
+example flask run on docker build, run, and *publish
 
 docker build -t docker_flask:latest .
 
