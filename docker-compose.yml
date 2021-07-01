@@ -1,0 +1,8 @@
+version: "2.2"
+services:
+  extends:
+    image: docker_flask:1.0.0
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
